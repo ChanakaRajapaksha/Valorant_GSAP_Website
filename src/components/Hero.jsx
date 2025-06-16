@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
-import { TiLocationArrow } from "react-icons/ti";
+import { SiValorant } from "react-icons/si";
 import { useEffect, useRef, useState } from "react";
 
 import Button from "./Button";
@@ -157,8 +157,8 @@ const Hero = () => {
             <Button
               id="watch-trailer"
               title="Watch trailer"
-              leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1"
+              leftIcon={<SiValorant />}
+              containerClass="bg-yellow-300 flex-center gap-2"
             />
           </div>
         </div>
